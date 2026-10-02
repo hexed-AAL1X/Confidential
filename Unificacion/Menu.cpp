@@ -83,7 +83,6 @@ void Menu_Render(SDL_Renderer* renderer) {
     float x = (0.35f * WINDOW_WIDTH) / scale;
     float y = (0.15f * WINDOW_HEIGHT) / scale;
 
-    SDL_RenderDebugText(renderer, x, y, "The island");
     const float posicion1 = 0.75f; const float posicion2 = 0.90f;
     y = (posicion1 * WINDOW_HEIGHT) / scale;
     x = (0.45f * WINDOW_WIDTH) / scale;

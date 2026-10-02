@@ -78,8 +78,6 @@ SDL_AppResult SDL_AppIterate(void *appstate)
     float x = (0.5f * WINDOW_WIDTH) / scale;
     float y = (0.25f * WINDOW_HEIGHT) / scale;
 
-    SDL_RenderDebugText(renderer, x, y, "The island");
-    y = (0.75f * WINDOW_HEIGHT) / scale;
     SDL_RenderDebugText(renderer, x, y, "Start");
     y = (0.90f * WINDOW_HEIGHT) / scale;
     SDL_RenderDebugText(renderer, x, y, "Quit");

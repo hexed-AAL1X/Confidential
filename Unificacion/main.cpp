@@ -24,7 +24,7 @@ SDL_AppResult SDL_AppInit(void** appstate, int argc, char* argv[]) {
         return SDL_APP_FAILURE;
     }
 
-    if (!SDL_CreateWindowAndRenderer("The Island", 640, 480, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
+    if (!SDL_CreateWindowAndRenderer("…", 640, 480, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
         return SDL_APP_FAILURE;
     }
 
@@ -70,7 +70,7 @@ SDL_AppResult SDL_AppIterate(void* appstate) {
         // Render de la escena del juego
         SDL_SetRenderDrawColor(renderer, 20, 80, 30, 255);
         SDL_RenderClear(renderer);
-        SDL_RenderDebugText(renderer, 100, 100, "¡Bienvenido a The Island!");
+        SDL_RenderDebugText(renderer, 100, 100, "Bienvenido");
     }
 
     SDL_RenderPresent(renderer);

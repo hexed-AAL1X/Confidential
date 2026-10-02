@@ -98,9 +98,8 @@ SDL_AppResult SDL_AppIterate(void *appstate)
     SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
 
     float x = (0.5f * WINDOW_WIDTH) / scale;
-    float y = (0.25f * WINDOW_HEIGHT) / scale;
+    float     y = (0.25f * WINDOW_HEIGHT) / scale;
 
-    SDL_RenderDebugText(renderer, x, y, "The island");
     y = (0.75f * WINDOW_HEIGHT) / scale;
     SDL_RenderDebugText(renderer, x, y, "Start");
     y = (0.90f * WINDOW_HEIGHT) / scale;
