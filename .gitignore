@@ -1,0 +1,8 @@
+.vs/
+x64/
+deps/
+*.user
+*.suo
+*.VC.db
+*.aps
+compile_flags.txt

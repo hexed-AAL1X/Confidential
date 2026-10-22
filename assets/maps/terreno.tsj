@@ -1,0 +1,530 @@
+{
+ "type": "tileset",
+ "version": "1.10",
+ "tiledversion": "1.10.2",
+ "name": "terreno",
+ "image": "hd/terreno.png",
+ "imagewidth": 1536,
+ "imageheight": 540,
+ "tilewidth": 192,
+ "tileheight": 108,
+ "columns": 8,
+ "tilecount": 40,
+ "margin": 0,
+ "spacing": 0,
+ "tileoffset": {
+  "x": -12,
+  "y": 12
+ },
+ "grid": {
+  "orientation": "isometric",
+  "width": 168,
+  "height": 84
+ },
+ "tiles": [
+  {
+   "id": 0,
+   "type": "agua",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ],
+   "animation": [
+    {
+     "tileid": 0,
+     "duration": 260
+    },
+    {
+     "tileid": 1,
+     "duration": 260
+    },
+    {
+     "tileid": 2,
+     "duration": 260
+    },
+    {
+     "tileid": 3,
+     "duration": 260
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "type": "agua",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "type": "agua",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "type": "agua",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "type": "agua_baja",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ],
+   "animation": [
+    {
+     "tileid": 4,
+     "duration": 260
+    },
+    {
+     "tileid": 5,
+     "duration": 260
+    },
+    {
+     "tileid": 6,
+     "duration": 260
+    },
+    {
+     "tileid": 7,
+     "duration": 260
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "type": "agua_baja",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "type": "agua_baja",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "type": "agua_baja",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "type": "arena",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "type": "arena",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "type": "arena",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "type": "cesped",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "type": "cesped",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "type": "cesped",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "type": "camino",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "type": "camino",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "type": "madera",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "type": "madera",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "type": "baldosa",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "type": "baldosa",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "type": "piscina",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ],
+   "animation": [
+    {
+     "tileid": 20,
+     "duration": 420
+    },
+    {
+     "tileid": 21,
+     "duration": 420
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "type": "piscina",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "type": "tierra",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "type": "tierra",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "type": "marmol",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "type": "marmol",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "type": "parquet",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "type": "parquet",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "type": "alfombra",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "type": "losa_templo",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "type": "losa_templo",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "type": "hormigon",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "type": "hormigon",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "type": "rejilla",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "type": "pista_baile",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ],
+   "animation": [
+    {
+     "tileid": 34,
+     "duration": 260
+    },
+    {
+     "tileid": 35,
+     "duration": 260
+    },
+    {
+     "tileid": 36,
+     "duration": 260
+    },
+    {
+     "tileid": 37,
+     "duration": 260
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "type": "pista_baile",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "type": "pista_baile",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "type": "pista_baile",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "type": "azulejo",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "type": "azulejo",
+   "properties": [
+    {
+     "name": "transitable",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  }
+ ]
+}

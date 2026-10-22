@@ -1,0 +1,67 @@
+{
+    "automappingRulesFile": "",
+    "commands": [],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [],
+    "propertyTypes": [
+        {
+            "color": "#ffe0404a",
+            "drawFill": true,
+            "id": 1,
+            "members": [
+                {
+                    "name": "mapa",
+                    "type": "file",
+                    "value": "isla.tmj"
+                },
+                {
+                    "name": "destino",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "name": "puerta",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
+        },
+        {
+            "color": "#ff40c0ff",
+            "drawFill": true,
+            "id": 2,
+            "members": [],
+            "name": "llegada",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
+        },
+        {
+            "color": "#ffffc040",
+            "drawFill": true,
+            "id": 3,
+            "members": [],
+            "name": "npc",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
+        },
+        {
+            "color": "#ffffffff",
+            "drawFill": true,
+            "id": 5,
+            "members": [],
+            "name": "inicio",
+            "type": "class",
+            "useAs": [
+                "object"
+            ]
+        }
+    ]
+}

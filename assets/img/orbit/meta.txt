@@ -1,0 +1,2 @@
+idle_start=172
+frames=240
