@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shared settings for Confidential.vcxproj and SpriteEditor.vcxproj. -->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SDL">
+    <SdlVersion>3.4.8</SdlVersion>
+    <SdlMixerVersion>3.2.4</SdlMixerVersion>
+    <SdlDir>$(MSBuildThisFileDirectory)deps\SDL3-$(SdlVersion)\</SdlDir>
+    <SdlMixerDir>$(MSBuildThisFileDirectory)deps\SDL3_mixer-$(SdlMixerVersion)\</SdlMixerDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <WarningLevel>Level3</WarningLevel>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)Game;$(SdlDir)include;$(SdlMixerDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(SdlDir)lib\x64;$(SdlMixerDir)lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <!-- First build on a new machine: download the official SDL3 / SDL3_mixer VC packages into deps\. -->
+  <Target Name="FetchSDL" BeforeTargets="PrepareForBuild"
+          Condition="!Exists('$(SdlDir)include\SDL3\SDL.h') Or !Exists('$(SdlMixerDir)include\SDL3_mixer\SDL_mixer.h')">
+    <Exec Command="powershell -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildThisFileDirectory)tools\fetch_sdl.ps1&quot; -SdlVersion $(SdlVersion) -MixerVersion $(SdlMixerVersion)" />
+  </Target>
+
+  <Target Name="CopySDLDlls" AfterTargets="Build">
+    <Copy SourceFiles="$(SdlDir)lib\x64\SDL3.dll;$(SdlMixerDir)lib\x64\SDL3_mixer.dll"
+          DestinationFolder="$(OutDir)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

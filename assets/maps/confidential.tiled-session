@@ -1,0 +1,67 @@
+{
+    "activeFile": "celdas.tmj",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "celdas.tmj": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 3587,
+                "y": 925.5
+            }
+        },
+        "isla.tmj": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 5478,
+                "y": 2566.5
+            }
+        },
+        "mansion.tmj": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1415.151515151515,
+                "y": 1192.4242424242425
+            }
+        },
+        "objetos.tsj": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "templo.tmj": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1276,
+                "y": 607
+            }
+        },
+        "terreno.tsj": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.125
+        }
+    },
+    "openFiles": [
+        "isla.tmj",
+        "mansion.tmj",
+        "templo.tmj",
+        "celdas.tmj"
+    ],
+    "project": "",
+    "recentFiles": [
+        "isla.tmj",
+        "mansion.tmj",
+        "templo.tmj",
+        "celdas.tmj"
+    ]
+}

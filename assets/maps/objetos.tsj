@@ -1,0 +1,3624 @@
+{
+ "type": "tileset",
+ "version": "1.10",
+ "tiledversion": "1.10.2",
+ "name": "objetos",
+ "tilewidth": 1544,
+ "tileheight": 1135,
+ "tilecount": 106,
+ "columns": 0,
+ "margin": 0,
+ "spacing": 0,
+ "objectalignment": "bottom",
+ "grid": {
+  "orientation": "isometric",
+  "width": 168,
+  "height": 84
+ },
+ "tiles": [
+  {
+   "id": 0,
+   "type": "palmera_1",
+   "image": "hd/objetos/palmera_1.png",
+   "imagewidth": 792,
+   "imageheight": 478,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "type": "palmera_2",
+   "image": "hd/objetos/palmera_2.png",
+   "imagewidth": 566,
+   "imageheight": 449,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "type": "palmera_3",
+   "image": "hd/objetos/palmera_3.png",
+   "imagewidth": 894,
+   "imageheight": 536,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "type": "arbusto_1",
+   "image": "hd/objetos/arbusto_1.png",
+   "imagewidth": 260,
+   "imageheight": 156,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.9
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.9
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "type": "arbusto_2",
+   "image": "hd/objetos/arbusto_2.png",
+   "imagewidth": 224,
+   "imageheight": 155,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.9
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.9
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "type": "roca_1",
+   "image": "hd/objetos/roca_1.png",
+   "imagewidth": 252,
+   "imageheight": 137,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "type": "roca_2",
+   "image": "hd/objetos/roca_2.png",
+   "imagewidth": 240,
+   "imageheight": 135,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "type": "templo",
+   "image": "hd/objetos/templo.png",
+   "imagewidth": 1268,
+   "imageheight": 923,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 5.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 5.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "type": "mansion",
+   "image": "hd/objetos/mansion.png",
+   "imagewidth": 1544,
+   "imageheight": 1135,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 8.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 8.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "type": "cabana",
+   "image": "hd/objetos/cabana.png",
+   "imagewidth": 746,
+   "imageheight": 552,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 3.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 3.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "type": "helipuerto",
+   "image": "hd/objetos/helipuerto.png",
+   "imagewidth": 826,
+   "imageheight": 421,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 5.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 5.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "type": "lancha",
+   "image": "hd/objetos/lancha.png",
+   "imagewidth": 478,
+   "imageheight": 329,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 3.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 3.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "type": "sombrilla",
+   "image": "hd/objetos/sombrilla.png",
+   "imagewidth": 552,
+   "imageheight": 308,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "type": "tumbona",
+   "image": "hd/objetos/tumbona.png",
+   "imagewidth": 198,
+   "imageheight": 158,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "type": "farol",
+   "image": "hd/objetos/farol.png",
+   "imagewidth": 282,
+   "imageheight": 281,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.3
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.3
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "type": "cajas",
+   "image": "hd/objetos/cajas.png",
+   "imagewidth": 258,
+   "imageheight": 207,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "type": "poste",
+   "image": "hd/objetos/poste.png",
+   "imagewidth": 114,
+   "imageheight": 108,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.3
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.3
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "type": "letrero",
+   "image": "hd/objetos/letrero.png",
+   "imagewidth": 190,
+   "imageheight": 178,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "type": "pared_mansion_n",
+   "image": "hd/objetos/pared_mansion_n.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "type": "pared_mansion_o",
+   "image": "hd/objetos/pared_mansion_o.png",
+   "imagewidth": 398,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "type": "pared_mansion_esquina",
+   "image": "hd/objetos/pared_mansion_esquina.png",
+   "imagewidth": 268,
+   "imageheight": 289,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "type": "pared_mansion_n_ventana",
+   "image": "hd/objetos/pared_mansion_n_ventana.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "type": "pared_mansion_o_ventana",
+   "image": "hd/objetos/pared_mansion_o_ventana.png",
+   "imagewidth": 398,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "type": "pared_mansion_n_cuadro",
+   "image": "hd/objetos/pared_mansion_n_cuadro.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "type": "pared_mansion_o_cuadro",
+   "image": "hd/objetos/pared_mansion_o_cuadro.png",
+   "imagewidth": 398,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "type": "chimenea",
+   "image": "hd/objetos/chimenea.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "type": "pared_templo_n",
+   "image": "hd/objetos/pared_templo_n.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "type": "pared_templo_o",
+   "image": "hd/objetos/pared_templo_o.png",
+   "imagewidth": 398,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "type": "pared_templo_esquina",
+   "image": "hd/objetos/pared_templo_esquina.png",
+   "imagewidth": 268,
+   "imageheight": 289,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "type": "pared_templo_n_vela",
+   "image": "hd/objetos/pared_templo_n_vela.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "type": "pared_templo_o_vela",
+   "image": "hd/objetos/pared_templo_o_vela.png",
+   "imagewidth": 428,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "type": "sofa",
+   "image": "hd/objetos/sofa.png",
+   "imagewidth": 330,
+   "imageheight": 201,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.9
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "type": "sillon",
+   "image": "hd/objetos/sillon.png",
+   "imagewidth": 216,
+   "imageheight": 162,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.9
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "type": "mesa_centro",
+   "image": "hd/objetos/mesa_centro.png",
+   "imagewidth": 196,
+   "imageheight": 123,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.7
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "type": "piano",
+   "image": "hd/objetos/piano.png",
+   "imagewidth": 424,
+   "imageheight": 316,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.9
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "type": "estanteria",
+   "image": "hd/objetos/estanteria.png",
+   "imagewidth": 254,
+   "imageheight": 288,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.45
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "type": "escritorio",
+   "image": "hd/objetos/escritorio.png",
+   "imagewidth": 254,
+   "imageheight": 206,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.8
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "type": "archivador",
+   "image": "hd/objetos/archivador.png",
+   "imagewidth": 190,
+   "imageheight": 159,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "type": "planta",
+   "image": "hd/objetos/planta.png",
+   "imagewidth": 264,
+   "imageheight": 166,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "type": "alfombra_salon",
+   "image": "hd/objetos/alfombra_salon.png",
+   "imagewidth": 506,
+   "imageheight": 214,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 3.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "type": "lampara",
+   "image": "hd/objetos/lampara.png",
+   "imagewidth": 226,
+   "imageheight": 200,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "type": "bar",
+   "image": "hd/objetos/bar.png",
+   "imagewidth": 406,
+   "imageheight": 273,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.45
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.85
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "type": "billar",
+   "image": "hd/objetos/billar.png",
+   "imagewidth": 372,
+   "imageheight": 225,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.25
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.25
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "type": "busto",
+   "image": "hd/objetos/busto.png",
+   "imagewidth": 234,
+   "imageheight": 206,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "type": "monitores",
+   "image": "hd/objetos/monitores.png",
+   "imagewidth": 264,
+   "imageheight": 238,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "type": "caja_fuerte",
+   "image": "hd/objetos/caja_fuerte.png",
+   "imagewidth": 196,
+   "imageheight": 148,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.8
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.8
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "type": "altar",
+   "image": "hd/objetos/altar.png",
+   "imagewidth": 344,
+   "imageheight": 301,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "type": "banco",
+   "image": "hd/objetos/banco.png",
+   "imagewidth": 322,
+   "imageheight": 197,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "type": "columna",
+   "image": "hd/objetos/columna.png",
+   "imagewidth": 332,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.62
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.62
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "type": "velas",
+   "image": "hd/objetos/velas.png",
+   "imagewidth": 110,
+   "imageheight": 96,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "type": "estatua_buho",
+   "image": "hd/objetos/estatua_buho.png",
+   "imagewidth": 400,
+   "imageheight": 333,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "type": "pentagrama",
+   "image": "hd/objetos/pentagrama.png",
+   "imagewidth": 608,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 4.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 4.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "type": "felpudo_salida",
+   "image": "hd/objetos/felpudo_salida.png",
+   "imagewidth": 338,
+   "imageheight": 130,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "type": "pared_celda_n",
+   "image": "hd/objetos/pared_celda_n.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "type": "pared_celda_o",
+   "image": "hd/objetos/pared_celda_o.png",
+   "imagewidth": 398,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "type": "pared_celda_esquina",
+   "image": "hd/objetos/pared_celda_esquina.png",
+   "imagewidth": 268,
+   "imageheight": 289,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "type": "pared_celda_n_lampara",
+   "image": "hd/objetos/pared_celda_n_lampara.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "type": "pared_celda_o_lampara",
+   "image": "hd/objetos/pared_celda_o_lampara.png",
+   "imagewidth": 440,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "type": "pared_tuberia_n",
+   "image": "hd/objetos/pared_tuberia_n.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "type": "pared_tuberia_o",
+   "image": "hd/objetos/pared_tuberia_o.png",
+   "imagewidth": 438,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "type": "pared_tuberia_esquina",
+   "image": "hd/objetos/pared_tuberia_esquina.png",
+   "imagewidth": 268,
+   "imageheight": 289,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "type": "pared_tuberia_n_valvula",
+   "image": "hd/objetos/pared_tuberia_n_valvula.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "type": "pared_tuberia_o_valvula",
+   "image": "hd/objetos/pared_tuberia_o_valvula.png",
+   "imagewidth": 486,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "type": "pared_fiesta_n",
+   "image": "hd/objetos/pared_fiesta_n.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "type": "pared_fiesta_o",
+   "image": "hd/objetos/pared_fiesta_o.png",
+   "imagewidth": 398,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "type": "pared_fiesta_esquina",
+   "image": "hd/objetos/pared_fiesta_esquina.png",
+   "imagewidth": 268,
+   "imageheight": 289,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "type": "pared_fiesta_n_neon",
+   "image": "hd/objetos/pared_fiesta_n_neon.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "type": "pared_fiesta_o_neon",
+   "image": "hd/objetos/pared_fiesta_o_neon.png",
+   "imagewidth": 406,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "type": "pared_piscina_n",
+   "image": "hd/objetos/pared_piscina_n.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "type": "pared_piscina_o",
+   "image": "hd/objetos/pared_piscina_o.png",
+   "imagewidth": 398,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "type": "pared_piscina_esquina",
+   "image": "hd/objetos/pared_piscina_esquina.png",
+   "imagewidth": 268,
+   "imageheight": 289,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "type": "pared_piscina_n_lampara",
+   "image": "hd/objetos/pared_piscina_n_lampara.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "type": "pared_piscina_o_lampara",
+   "image": "hd/objetos/pared_piscina_o_lampara.png",
+   "imagewidth": 440,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "type": "barrotes_n",
+   "image": "hd/objetos/barrotes_n.png",
+   "imagewidth": 236,
+   "imageheight": 301,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.15
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "type": "barrotes_o",
+   "image": "hd/objetos/barrotes_o.png",
+   "imagewidth": 380,
+   "imageheight": 301,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.15
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "type": "catre",
+   "image": "hd/objetos/catre.png",
+   "imagewidth": 386,
+   "imageheight": 183,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "type": "inodoro",
+   "image": "hd/objetos/inodoro.png",
+   "imagewidth": 150,
+   "imageheight": 123,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "type": "caldera",
+   "image": "hd/objetos/caldera.png",
+   "imagewidth": 514,
+   "imageheight": 421,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "type": "tanque",
+   "image": "hd/objetos/tanque.png",
+   "imagewidth": 404,
+   "imageheight": 337,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "type": "generador",
+   "image": "hd/objetos/generador.png",
+   "imagewidth": 274,
+   "imageheight": 211,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "type": "tuberia_suelo",
+   "image": "hd/objetos/tuberia_suelo.png",
+   "imagewidth": 338,
+   "imageheight": 131,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "type": "cabina_dj",
+   "image": "hd/objetos/cabina_dj.png",
+   "imagewidth": 326,
+   "imageheight": 237,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "type": "altavoz",
+   "image": "hd/objetos/altavoz.png",
+   "imagewidth": 258,
+   "imageheight": 211,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.8
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.8
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "type": "mesa_fiesta",
+   "image": "hd/objetos/mesa_fiesta.png",
+   "imagewidth": 248,
+   "imageheight": 169,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "type": "buffet",
+   "image": "hd/objetos/buffet.png",
+   "imagewidth": 406,
+   "imageheight": 220,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.4
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.8
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "type": "globos",
+   "image": "hd/objetos/globos.png",
+   "imagewidth": 302,
+   "imageheight": 285,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "type": "escalera_sube",
+   "image": "hd/objetos/escalera_sube.png",
+   "imagewidth": 552,
+   "imageheight": 421,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "type": "escalera_baja",
+   "image": "hd/objetos/escalera_baja.png",
+   "imagewidth": 338,
+   "imageheight": 171,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "type": "pared_celda_n_dibujos",
+   "image": "hd/objetos/pared_celda_n_dibujos.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "type": "pared_celda_n_dibujo",
+   "image": "hd/objetos/pared_celda_n_dibujo.png",
+   "imagewidth": 268,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "type": "pared_celda_o_dibujos",
+   "image": "hd/objetos/pared_celda_o_dibujos.png",
+   "imagewidth": 398,
+   "imageheight": 322,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": true
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "type": "peluche",
+   "image": "hd/objetos/peluche.png",
+   "imagewidth": 98,
+   "imageheight": 82,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "type": "zapatitos",
+   "image": "hd/objetos/zapatitos.png",
+   "imagewidth": 64,
+   "imageheight": 44,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "type": "juguetes",
+   "image": "hd/objetos/juguetes.png",
+   "imagewidth": 98,
+   "imageheight": 67,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.6
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "type": "muro_celda_n",
+   "image": "hd/objetos/muro_celda_n.png",
+   "imagewidth": 170,
+   "imageheight": 166,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.22
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "type": "muro_celda_o",
+   "image": "hd/objetos/muro_celda_o.png",
+   "imagewidth": 266,
+   "imageheight": 166,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.22
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "type": "muro_azulejo_n",
+   "image": "hd/objetos/muro_azulejo_n.png",
+   "imagewidth": 170,
+   "imageheight": 166,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.22
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "type": "muro_azulejo_o",
+   "image": "hd/objetos/muro_azulejo_o.png",
+   "imagewidth": 266,
+   "imageheight": 166,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.22
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "type": "taquillas",
+   "image": "hd/objetos/taquillas.png",
+   "imagewidth": 252,
+   "imageheight": 253,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "type": "estanteria_metal",
+   "image": "hd/objetos/estanteria_metal.png",
+   "imagewidth": 254,
+   "imageheight": 270,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "type": "silla",
+   "image": "hd/objetos/silla.png",
+   "imagewidth": 150,
+   "imageheight": 127,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "type": "mesa_metal",
+   "image": "hd/objetos/mesa_metal.png",
+   "imagewidth": 238,
+   "imageheight": 163,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.4
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.8
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "type": "lampara_techo",
+   "image": "hd/objetos/lampara_techo.png",
+   "imagewidth": 332,
+   "imageheight": 312,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "type": "camilla",
+   "image": "hd/objetos/camilla.png",
+   "imagewidth": 418,
+   "imageheight": 220,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.0
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 2.0
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "type": "vitrina",
+   "image": "hd/objetos/vitrina.png",
+   "imagewidth": 230,
+   "imageheight": 241,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 1.2
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "type": "ducha",
+   "image": "hd/objetos/ducha.png",
+   "imagewidth": 164,
+   "imageheight": 214,
+   "properties": [
+    {
+     "name": "ancho",
+     "type": "float",
+     "value": 0.5
+    },
+    {
+     "name": "fondo",
+     "type": "float",
+     "value": 0.4
+    },
+    {
+     "name": "solido",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "plano",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "pared",
+     "type": "bool",
+     "value": false
+    }
+   ]
+  }
+ ]
+}
