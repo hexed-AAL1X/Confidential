@@ -9,6 +9,7 @@
 #include "AssetPath.hpp"
 #include "Game.hpp"
 #include "Settings.hpp"
+#include "Video.hpp"
 
 static SDL_Window *window = NULL;
 static SDL_Renderer *renderer = NULL;
@@ -505,6 +506,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
     SDL_SetAppMetadata("CONFIDENTIAL", "1.0", "com.confidential.menu");
     SDL_SetHint(SDL_HINT_MAIN_CALLBACK_RATE, "60");
 
+    play_intro_video(std::string(Asset_Root()) + "assets/video/rockstar.mkv");
     if (!SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO)) {
         SDL_Log("Couldn't initialize SDL: %s", SDL_GetError());
         return SDL_APP_FAILURE;

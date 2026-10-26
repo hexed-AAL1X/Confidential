@@ -3,7 +3,7 @@
 #include "Map.hpp"
 #include "Settings.hpp"
 #include "SpritePack.hpp"
-
+#include "Video.hpp"
 #include <algorithm>
 #include <numeric>
 #include <cmath>
@@ -146,9 +146,8 @@ struct PlayableCharacter {
     const char *npc;  /* NPC_KINDS pack left out while playing as them, or nullptr */
 };
 static const PlayableCharacter BUILTIN_PLAYABLE[] = {
-    {"players/hermano", "El hermano", nullptr},
-    {"player", "Jeffrey Epstein", nullptr},
-    {"players/trump", "Donald Trump", "trump"},
+    {"player", "Moon", nullptr},
+    /*{"players/trump", "Donald Trump", "trump"},
     {"players/clinton", "Bill Clinton", "clinton"},
     {"players/michael", "Michael Jackson", "michael"},
     {"players/pope", "El Papa", "pope"},
@@ -191,7 +190,7 @@ static const PlayableCharacter BUILTIN_PLAYABLE[] = {
     {"players/pete", "Pete", "pete"},
     {"players/springtrap", "Springtrap", "springtrap"},
     {"players/purple_guy", "Purple Guy", "purple_guy"},
-    {"players/gary_coleman", "Gary Coleman", "gary_coleman"},
+    {"players/gary_coleman", "Gary Coleman", "gary_coleman"},*/
 };
 static std::vector<PlayableCharacter> PLAYABLE(std::begin(BUILTIN_PLAYABLE), std::end(BUILTIN_PLAYABLE));
 
